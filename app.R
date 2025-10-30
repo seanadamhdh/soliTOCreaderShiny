@@ -17,15 +17,21 @@ if(!require(readxl)){
   install.packages("readxl")
   require(readxl)
 }
+if(!require(simplerspec)){
+  install_github("https://github.com/philipp-baumann/simplerspec.git")
+  require(simplerspec)}
+if(!require(prospectr)){
+  #install_packages("prospectr")
+  install_github("https://github.com/l-ramirez-lopez/prospectr.git")
+  require(prospectr)
+}
 
 if(!require(TUBAFsoilFunctions)){
-  remotes::install_github("https://github.com/seanadamhdh/TUBAFsoilFunctions.git",ref="dev")
+  install_github("https://github.com/seanadamhdh/TUBAFsoilFunctions.git",ref="dev")
   require(TUBAFsoilFunctions)}
 
 
-library(dplyr)
-library(stringr)
-library(readxl)
+
 
 process_soliTOC <- function(
     soliTOC_file, 
