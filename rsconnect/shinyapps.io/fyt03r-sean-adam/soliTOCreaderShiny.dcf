@@ -1,0 +1,12 @@
+name: soliTOCreaderShiny
+title: soliTOCreaderShiny
+username: fyt03r-sean-adam
+account: fyt03r-sean-adam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15915229
+bundleId: 11106657
+url: https://fyt03r-sean-adam.shinyapps.io/soliTOCreaderShiny/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
